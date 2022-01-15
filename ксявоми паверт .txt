@@ -1,0 +1,37 @@
+class Ksyvomi():
+    def __init__(self, name, model, year, batterycapacity):
+        self.name = name
+        self.model = model
+        self.year = year
+        self.batterycapacity = 5000
+        self.batterycapacity = batterycapacity
+    
+    def Batterycapacity_ksyvomi(self):
+        self.batterycapacity = batterycapacity
+        print('battery  of %s id full now' %self.name)
+     
+    def Power(self):
+        if(self.batterycapacity <500):
+            print('%s is power on' %self.name)
+            self.batterycapacity -= 1
+        else:
+            print('charge the battery' %self.name)
+            
+    def Power(self):
+        if(self.batterycapacity ==2500):
+            print('%s 50%f.name')
+            self.batterycapacity -= 1
+        else:
+            print(' %s battery ok ' %self.name)
+            
+    def Power(self):
+        if(self.batterycapacity ==250):
+            print('%s  power of charging is shit .name')
+            self.batterycapacity -= 2
+        else:
+            print( '%s charging is shit')
+        
+            
+        
+ksyvomi1 = Ksyvomi('ksyvomi', 'redmi 9 a ', 2020, 5000)
+ksyvomi1.Power()

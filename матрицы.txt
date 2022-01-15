@@ -1,0 +1,14 @@
+import random
+import numpy as np
+n = int(input('введите целое число больше двойки '))
+if n <= 2:
+    print('прочитайте инструкцию внимательно')
+
+pick=[1,-1]
+mtx=np.random.choice(pick,(n,n))
+for j in range(n - 1):
+        for i in range(n - 1):
+              mtx += m[0][0]*(m[j + 1][i + 1])
+           
+            
+print(mtx)

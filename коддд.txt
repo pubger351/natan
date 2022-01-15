@@ -1,0 +1,15 @@
+import numpy as np
+import random
+a=[]
+b=[]
+randome =[-1,1]
+o=int (input ('введите число больше двух'))
+if o<=2:
+    print('введённые параметры не соответсвуют условию!!!!!! ')
+else:
+    for i in range (o):
+        a=[random.choice(randome)for i in range (o)]
+        b.append(a)
+        print(a)
+
+print((b[0][0]*b[0][2]))
