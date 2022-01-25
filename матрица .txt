@@ -3,9 +3,9 @@ import random
 a=[]
 b=[]
 randome =[-1,1]
-o=int (input ('ââåäèòå ÷èñëî áîëüøå äâóõ'))
+o=int (input ('введите целое число больше двойки'))
 if o<=2:
-    print('ââåä¸ííûå ïàðàìåòðû íå ñîîòâåòñâóþò óñëîâèþ!!!!!! ')
+    print('прочитайте инструкцию внимательно ')
 else:
     for i in range (o):
         a=[random.choice(randome)for i in range (o)]
